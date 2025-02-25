@@ -27,7 +27,7 @@ public class StaticGenerator {
         // 获取目录的父目录
         File parentFile = new File(projectPath).getParentFile();
         // 获取输入路径
-        String inputPath = new File(parentFile, "ds-generator-repo/ds-generator-demo-projects/acm-template").getAbsolutePath();
+        String inputPath = new File(parentFile, "ds-generator-demo-projects/acm-template").getAbsolutePath();
         // 输出路径
         String outputPath = projectPath;
 //        copyFilesByHutool(inputPath, outputPath);

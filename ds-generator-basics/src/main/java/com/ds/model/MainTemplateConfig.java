@@ -3,6 +3,10 @@ package com.ds.model;
 /*
  *  动态模板配置
  * */
+
+import lombok.Data;
+
+@Data
 public class MainTemplateConfig {
     /*
      * 是否生成循环

@@ -1,9 +1,6 @@
-package com.ds;
+package com.ds.maker;
 
-import com.ds.cli.command.CommandExecutor;
-import com.ds.generator.StaticGenerator;
-
-import java.io.File;
+import com.ds.maker.cli.command.CommandExecutor;
 
 public class Main {
     public static void main(String[] args) {
